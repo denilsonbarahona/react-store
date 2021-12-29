@@ -9,7 +9,7 @@ module.exports = {
     output: {
         path:path.resolve(__dirname, 'dist'),
         filename: 'bundle.js',
-        publicPath: "/",
+        publicPath: "./",
     },
     /**** son las extensiones que se permitiran usar en 
      * en el proyecto ( para que webpack reconozaca los elementos)
